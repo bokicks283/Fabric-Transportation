@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabric-transportation",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Transportation Mod",
+  "description": "A mod that adds a slue of vehicles to Minecraft. Runs on the fabric modloader!",
   "authors": [
-    "Me!"
+    "bokicks283"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.bokicks283.fabrictransportationmod.FabricTransportationMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fabric-transportation.mixins.json"
   ],
 
   "depends": {
